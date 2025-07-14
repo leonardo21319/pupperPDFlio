@@ -1,0 +1,19 @@
+{
+  "name": "pdf-test-project",
+  "version": "1.0.0",
+  "description": "Proyecto de pruebas para generación de PDF con Puppeteer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "qrcode": "^1.5.4",
+    "uuid": "^11.0.0"
+  }
+}
